@@ -11,7 +11,7 @@ public class DAO {
             "jdbc:mysql://localhost:3306/libman?useSSL=false&allowPublicKeyRetrieval=true"
                     + "&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC");
     private static final String JDBC_USERNAME = System.getProperty("libman.jdbc.user", "root");
-    private static final String JDBC_PASSWORD = System.getProperty("libman.jdbc.password", "ducanh88k7");
+    private static final String JDBC_PASSWORD = System.getProperty("libman.jdbc.password", "root");
 
     static {
         try {
