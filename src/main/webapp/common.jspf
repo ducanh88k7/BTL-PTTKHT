@@ -1,0 +1,18 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<%-- Cố định locale tiếng Việt để số tiền luôn có dấu phân cách hàng nghìn (85.000) --%>
+<fmt:setLocale value="vi_VN"/>
+<style>
+  body { font-family: Arial, sans-serif; margin: 24px; color: #222; }
+  h2 { margin-top: 0; }
+  table { border-collapse: collapse; margin: 12px 0; }
+  th, td { border: 1px solid #999; padding: 6px 10px; text-align: left; }
+  th { background: #e8eef7; }
+  label { display: inline-block; min-width: 130px; margin: 4px 0; }
+  input[type=text], input[type=number], select, textarea { padding: 4px; width: 260px; }
+  button { padding: 5px 12px; cursor: pointer; }
+  .msg { padding: 8px 12px; margin: 10px 0; background: #fff6d6; border: 1px solid #e0c35a; }
+  .ok { background: #e3f6e3; border-color: #6cb86c; }
+  .box { border: 1px solid #bbb; padding: 10px 14px; margin: 12px 0; background: #fafafa; }
+  nav a { margin-right: 14px; }
+</style>
